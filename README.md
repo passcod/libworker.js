@@ -4,7 +4,7 @@
  * A tiny (750 bytes) wrapper around WebWorkers to enable
  * source-less workers in a clean and lightweight manner.
  *
- * Ver: 1.0.0
+ * Ver: 1.1.0
  * Who: Félix Saparelli
  * Web: https://github.com/passcod/libworker.js
  *
