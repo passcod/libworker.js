@@ -1,6 +1,6 @@
 ###* libworker.js
  *
- * Ver: 1.1.0
+ * Ver: 1.1.1
  * Who: Félix Saparelli
  * Web: https://github.com/passcod/libworker.js
  *
@@ -18,7 +18,7 @@ root = @
 class @libworker
   constructor: (@metal = new Worker libworker.src) ->
   send: (msg) -> @metal.postMessage msg
-  eval: (val) -> @send "eval:#{String val}"
+  eval: (val) -> @send "eval:#{val}"
   
   # Contains the listener.
   @src: "data:text/javascript;base64,dmFyIGI7Yj10aGlzO" +
