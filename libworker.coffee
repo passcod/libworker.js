@@ -21,7 +21,8 @@ class @libworker
   eval: (val) -> @send "eval:#{String val}"
   
   # Contains the listener.
-  @src: 'javascript:var b;b=this;this.addEventListener' +
-        '("message",function(a){a=String(a.data);if(!(' +
-        '5>a.length)&&"eval:"===a.slice(0,5))return b.' +
-        'eval.call(b,a.slice(5,a.length-5))});'
+  @src: "data:text/javascript;base64,dmFyIGI7Yj10aGlzO3Ro" +
+        "aXMuYWRkRXZlbnRMaXN0ZW5lcigibWVzc2FnZSIsZnVuY3Rp" +
+        "b24oYSl7YT1TdHJpbmcoYS5kYXRhKTtpZighKDU+YS5sZW5n" +
+        "dGgpJiYiZXZhbDoiPT09YS5zbGljZSgwLDUpKXJldHVybiBi" +
+        "LmV2YWwuY2FsbChiLGEuc2xpY2UoNSxhLmxlbmd0aC01KSl9KTs="
