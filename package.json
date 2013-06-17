@@ -1,0 +1,20 @@
+{
+  "name": "libworker",
+  "version": "1.1.1",
+  "description": "Thin layer over WebWorkers",
+  "keywords": ["browser", "client", "worker", "threading"],
+  "homepage": "https://github.com/passcod/libworker.js",
+  "author": "Félix Saparelli <https://passcod.name>",
+  "contributors": [
+    {"name": "Félix Saparelli", "email": "me@passcod.name"}
+  ],
+  "licenses": {
+    "type": "Public Domain",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/passcod/libworker.js.git"
+  },
+  "main": "libworker.js"
+}
