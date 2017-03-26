@@ -35,3 +35,6 @@ w.eval("self.onmessage = function (e) { postMessage('pong:'+e.data); }");
 w.send("ping");
 //=> [info]: pong:ping
 ```
+
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/passcod/libworker.js.svg)](https://greenkeeper.io/)
